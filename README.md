@@ -31,4 +31,4 @@ w konsoli.
 
 ## Źródło
 
-Hyperphysics [http://hyperphysics.phy-astr.gsu.edu/hbase/Organic/transcription.html](http://hyperphysics.phy-astr.gsu.edu/hbase/Organic/transcription.html)
+[https://pl.wikipedia.org/wiki/Transkrypcja_(genetyka)](https://pl.wikipedia.org/wiki/Transkrypcja_(genetyka))
