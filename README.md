@@ -1,17 +1,17 @@
-# RNA Transcription
+# Transkrypcja RNA
 
-Given a DNA strand, return its RNA complement (per RNA transcription).
+Dla danej nici DNA, zwróć komplementarny ciąg RNA (po transkrypcji RNA).
 
-Both DNA and RNA strands are a sequence of nucleotides.
+DNA i RNA są sekwencjami nukleotydów.
 
-The four nucleotides found in DNA are adenine (**A**), cytosine (**C**),
-guanine (**G**) and thymine (**T**).
+W skład DNA wchodzą cztery nukleotydy: adenina (**A**), cytozyna (**C**),
+guanina (**G**) i tymina (**T**).
 
-The four nucleotides found in RNA are adenine (**A**), cytosine (**C**),
-guanine (**G**) and uracil (**U**).
+W skład RNA wchodzą cztery nukleotydy: adenina (**A**), cytozyna (**C**),
+guanina (**G**) and uracyl (**U**).
 
-Given a DNA strand, its transcribed RNA strand is formed by replacing
-each nucleotide with its complement:
+Dla danej nici DNA, transkrybowane RNA jest tworzone poprzez zamianę nuklotydów
+według następującego schematu:
 
 * `G` -> `C`
 * `C` -> `G`
@@ -19,16 +19,16 @@ each nucleotide with its complement:
 * `A` -> `U`
 
 
-# Running the tests
+# Uruchomienie testów
 
-You can run all the tests for an exercise by entering
+Możesz wywołać wszystkie testy pisząć następującą komendę
 
 ```sh
 $ gradle test
 ```
 
-in your terminal.
+w konsoli.
 
-## Source
+## Źródło
 
 Hyperphysics [http://hyperphysics.phy-astr.gsu.edu/hbase/Organic/transcription.html](http://hyperphysics.phy-astr.gsu.edu/hbase/Organic/transcription.html)
