@@ -20,5 +20,4 @@ class RnaTranscription {
         }
         return str.toString();
     }
-
 }

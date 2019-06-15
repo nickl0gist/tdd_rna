@@ -29,15 +29,11 @@ public class RnaTranscriptionTest {
         Assert.assertEquals("A", rnaTranscription.transcribe("T"));
     }
 
-
-    @Ignore
     @Test
     public void testRnaTranscriptionOfAdenineIsUracil() {
         Assert.assertEquals("U", rnaTranscription.transcribe("A"));
     }
 
-
-    @Ignore
     @Test
     public void testRnaTranscription() {
         Assert.assertEquals("UGCACCAGAAUU", rnaTranscription.transcribe("ACGTGGTCTTAA"));
