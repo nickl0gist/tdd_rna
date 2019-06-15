@@ -5,11 +5,11 @@ class RnaTranscription {
 
     private static final Map <Character, Character> DNA_MAP = new HashMap<>();
 
-    public RnaTranscription() {
-        this.DNA_MAP.put('G', 'C');
-        this.DNA_MAP.put('C', 'G');
-        this.DNA_MAP.put('T', 'A');
-        this.DNA_MAP.put('A', 'U');
+    static{
+        DNA_MAP.put('G', 'C');
+        DNA_MAP.put('C', 'G');
+        DNA_MAP.put('T', 'A');
+        DNA_MAP.put('A', 'U');
     }
 
     String transcribe(String dnaStrand) {
