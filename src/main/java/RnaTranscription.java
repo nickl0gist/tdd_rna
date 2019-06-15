@@ -3,20 +3,20 @@ import java.util.Map;
 
 class RnaTranscription {
 
-    private Map <Character, Character> dnaToRna = new HashMap<>();
+    private static final Map <Character, Character> DNA_MAP = new HashMap<>();
 
     public RnaTranscription() {
-        this.dnaToRna.put('G', 'C');
-        this.dnaToRna.put('C', 'G');
-        this.dnaToRna.put('T', 'A');
-        this.dnaToRna.put('A', 'U');
+        this.DNA_MAP.put('G', 'C');
+        this.DNA_MAP.put('C', 'G');
+        this.DNA_MAP.put('T', 'A');
+        this.DNA_MAP.put('A', 'U');
     }
 
     String transcribe(String dnaStrand) {
         dnaStrand = dnaStrand.toUpperCase();
         StringBuilder str = new StringBuilder();
         for (int i = 0; i < dnaStrand.length(); i++) {
-            str.append(dnaToRna.get(dnaStrand.charAt(i)));
+            str.append(DNA_MAP.get(dnaStrand.charAt(i)));
         }
         return str.toString();
     }
